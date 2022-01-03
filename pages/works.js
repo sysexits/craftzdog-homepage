@@ -16,8 +16,8 @@ import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 const Works = () => (
   <Layout title="Works">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
-        Works
+      <Heading as="h3" fontSize={20} mt={6} mb={4}>
+        Research
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -59,7 +59,7 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Project
         </Heading>
       </Section>
 

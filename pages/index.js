@@ -27,20 +27,23 @@ const Home = () => (
     <Container>
       <Box
         borderRadius="lg"
+        mt={6}
         mb={6}
         p={3}
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a full-stack developer based in Japan!
+        Hello, I&apos;m a haptic researcher based in Korea!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Jaehyun Jang
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          
+          
+          <p>Haptic Application Researcher ( Mid-air Haptics )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -63,24 +66,15 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Profile
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop">
-            <Link>Inkdrop</Link>
-          </NextLink>
-          .
+          Jaehyun is a recent PhD graduate in School of Computing from Korea Advanced Institute of Science and Technology (KAIST). My advisor is <Link href="https://cgv.kaist.ac.kr/members/professor" target="_blank">Prof. Jinah Park</Link>. My research interests lie in computer graphics and computer haptics with a particular focus on extended reality and mid-air haptics. I focus on developing mid-air haptic rendering algorithms to produce rich tactile sensations for the real-time simulation. 
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works">
+          <NextLink href="/pdfs/CV.pdf">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              My curriculum vitae
             </Button>
           </NextLink>
         </Box>
@@ -91,8 +85,8 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2010 - 2014.9</BioYear>
+          B.Sc. Computer Science at Korea Advanced Institute of Science and Technology (KAIST)
         </BioSection>
         <BioSection>
           <BioYear>2010</BioYear>
