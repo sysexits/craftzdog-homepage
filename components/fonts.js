@@ -1,6 +1,6 @@
 const Fonts = () => (
   <style jsx global>{`
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&display=swap');
+    @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
   `}</style>
 )
 export default Fonts

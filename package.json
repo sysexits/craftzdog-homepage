@@ -1,7 +1,7 @@
 {
   "name": "craftzdog-homepage",
   "version": "1.0.0",
-  "description": "Jaehyun Jang Ph.D.",
+  "description": "Jaehyun Jang",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -22,6 +22,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
+    "react-player": "^2.9.0",
     "three": "^0.134.0"
   },
   "devDependencies": {
