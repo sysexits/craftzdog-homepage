@@ -1,4 +1,3 @@
-import NextLink from 'next/link'
 import {Heading, Box, Button, Link} from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../section'

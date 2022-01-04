@@ -16,7 +16,7 @@ export const AreaContent = styled.span`
 
 function AreaSubPage({delay}) {
     return (
-        <Section delay={0.2}>
+        <Section delay={delay}>
         <Heading as="h3" variant="section-title">
         Research Areas  
         </Heading>

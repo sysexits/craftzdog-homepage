@@ -1,5 +1,4 @@
-import { Heading, Container, Badge, Link, List, ListItem, UnorderedList } from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Heading, Container, Badge, List, ListItem, UnorderedList } from '@chakra-ui/react'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -13,7 +12,7 @@ const Work = () => (
             </Title>
             <WorkImage src='/images/works/sphfluid/img1.jpg' alt='overview' />
             <P>
-            In our daily lives, we interact with fluids by touching them directly with our hands. Fluids produce a pressure field against the surface of our hands, and we experience fluid dynamics over our skin temporally and spatially at varying pressure distributions depending on fluid properties as well as on the interacting hand's poses and motions. To improve the realism of fluid simulation together with user interaction, we propose a real-time fluid tactile rendering technique that computes the pressure field on a virtual hand surface to be delivered to the user's actual hand via ultrasound-based mid-air haptic display. Our haptic rendering algorithm computes the feedback force in two stages: First, the pressure distribution of the rigid-fluid interaction is computed from a real-time Lagrangian fluid simulation, and then a set of focal points that reflects the generated pressure field is extracted by using a hill-climbing method which gives the local extrema of the pressure field of simulation. We implement a real-time smoothed-particle hydrodynamics fluid simulator and the proposed haptic rendering algorithm using adaptive amplitude modulation approach to demonstrate the effectiveness of our method in fluid tactile rendering in various scenarios.
+            In our daily lives, we interact with fluids by touching them directly with our hands. Fluids produce a pressure field against the surface of our hands, and we experience fluid dynamics over our skin temporally and spatially at varying pressure distributions depending on fluid properties as well as on the interacting hand&apos;s poses and motions. To improve the realism of fluid simulation together with user interaction, we propose a real-time fluid tactile rendering technique that computes the pressure field on a virtual hand surface to be delivered to the user&apos;s actual hand via ultrasound-based mid-air haptic display. Our haptic rendering algorithm computes the feedback force in two stages: First, the pressure distribution of the rigid-fluid interaction is computed from a real-time Lagrangian fluid simulation, and then a set of focal points that reflects the generated pressure field is extracted by using a hill-climbing method which gives the local extrema of the pressure field of simulation. We implement a real-time smoothed-particle hydrodynamics fluid simulator and the proposed haptic rendering algorithm using adaptive amplitude modulation approach to demonstrate the effectiveness of our method in fluid tactile rendering in various scenarios.
             </P>
 
             <List ml={4} my={4}>
@@ -64,7 +63,7 @@ const Work = () => (
                 <ListItem>
                     <Badge mr={2}></Badge>
                     <span>
-                    Jaehyun Jang, Jinah Park, <i>”Virtual Faucet: Stream Or Spray,”</i> presented at the IEEE
+                    Jaehyun Jang, Jinah Park, <i>&quot;Virtual Faucet: Stream Or Spray,&quot;</i> presented at the IEEE
     World Haptics Conference 2019, Jul. 2019. (Hands-on Demo)
                     </span>
                 </ListItem>
@@ -72,16 +71,16 @@ const Work = () => (
                 <ListItem>
                     <Badge mr={2}></Badge>
                     <span>
-                    Jaehyun Jang and Jinah Park, <i>“SPH Fluid Tactile Rendering for Ultrasonic
-    Mid-Air Haptics,”</i> IEEE Transactions on Haptics, Jan. 2020
+                    Jaehyun Jang and Jinah Park, <i>&quot;SPH Fluid Tactile Rendering for Ultrasonic
+    Mid-Air Haptics,&quot;</i> IEEE Transactions on Haptics, Jan. 2020
                     </span>
                 </ListItem>
 
                 <ListItem>
                     <Badge mr={2}></Badge>
                     <span>
-                    Jaehyun Jang and Jinah Park, <i>“Interacting with Fluids using Ultrasonic Mid-Air Haptic
-    Device,”</i> presented at the IEEE Haptics Symposium 2020 and IEEE World Haptics Conference 2021. (Hands-on
+                    Jaehyun Jang and Jinah Park, <i>&quot;Interacting with Fluids using Ultrasonic Mid-Air Haptic
+    Device,&quot;</i> presented at the IEEE Haptics Symposium 2020 and IEEE World Haptics Conference 2021. (Hands-on
     Demo)
                     </span>
                 </ListItem>
