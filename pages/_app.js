@@ -9,15 +9,19 @@ import { AnimatePresence } from 'framer-motion'
 
 function Website({ Component, pageProps }) {
   const router = useRouter();
+
+  const handleRouteChange = (url) => {
+    window.gtag('config', 'G-VQWVF66E64', {
+      page_path: url,
+    });
+  };
+
   useEffect(() => {
-    const handleRouteChange = (url) => {
-      gtag.pageview(url)
-    }
-    router.events.on('routeChangeComplete', handleRouteChange)
+    router.events.on('routeChangeComplete', handleRouteChange);
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange)
-    }
-  }, [router.events])
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
 
   return (
     <ChakraProvider theme={theme}>

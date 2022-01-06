@@ -10,7 +10,7 @@ export default class Document extends NextDocument {
         <Head>
         <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+            src={`https://www.googletagmanager.com/gtag/js?id=G-VQWVF66E64`}
           />
           <script
             dangerouslySetInnerHTML={{
@@ -19,7 +19,7 @@ export default class Document extends NextDocument {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', '${GA_TRACKING_ID}', {
+            gtag('config', 'G-VQWVF66E64', {
               page_path: window.location.pathname,
             });
           `,

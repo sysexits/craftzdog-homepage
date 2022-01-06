@@ -18,7 +18,7 @@ function ProfileSubPage({delay}) {
           Profile
         </Heading>
         <ProfileParagraph>
-          I am a PhD candiate in School of Computing from Korea Advanced Institute of Science and Technology (KAIST). My research interests lie in computer graphics and computer haptics with a particular focus on extended reality and mid-air haptics. I focus on developing mid-air haptic rendering algorithms to produce rich tactile sensations for the real-time simulation. 
+        I am a Ph.D. candidate in the School of Computing from Korea Advanced Institute of Science and Technology (KAIST). My research interests lie in computer graphics and computer haptics with a particular focus on extended reality and mid-air haptics. I focus on developing mid-air haptic rendering algorithms to produce rich tactile sensations for the real-time simulation.I am a Ph.D. candidate in the School of Computing from Korea Advanced Institute of Science and Technology (KAIST). My research interests lie in computer graphics and computer haptics with a particular focus on extended reality and mid-air haptics. I focus on developing mid-air haptic rendering algorithms to produce rich tactile sensations for the real-time simulation.
         </ProfileParagraph>
         <Box align="center" my={4}>
           <Link href="https://www.dropbox.com/s/qc0m7iqjpkj3l33/CV.pdf?dl=0" target='_blank'>
